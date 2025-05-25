@@ -7,6 +7,7 @@ export default async () => {
     host: 'localhost',
     port: '5432',
     database: 'demo_2025',
+    client_encoding: 'utf8'
   });
 
   await client.connect();
